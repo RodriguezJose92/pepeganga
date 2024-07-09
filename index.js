@@ -47,8 +47,7 @@ if(typeof MudiExperience == "undefined"){
             link = document.createElement('LINK');
             link.setAttribute('rel','stylesheet');
             link.id="stylesMudiGeneral";
-            link.href=`http://127.0.0.1:5500/index.css`;
-            // link.href=`https://cdn.jsdelivr.net/gh/RodriguezJose92/pepeganga@latest/index.css`; /* custom this path */
+            link.href=`https://cdn.jsdelivr.net/gh/RodriguezJose92/pepeganga@latest/index.css`; /* custom this path */
            
             document.head.appendChild(link)
         };
