@@ -33,7 +33,7 @@
 }
 
 .tooltipMudi {
-    background-color: #cccccc;
+    background-color: #d8d8d8;
     font-family: sans-serif;
     width: 320px;
     font-size: 14px;
@@ -54,7 +54,7 @@
     right: 10%;
     width: 10px;
     border-bottom-right-radius: 50px;
-    background-color: #cccccc;
+    background-color: #d8d8d8;
     color: transparent;
 }
 
