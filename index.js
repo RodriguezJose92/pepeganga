@@ -322,7 +322,7 @@ async experienceOn(skuNumber, fatherContainer){
 const mudiExperience = new MudiExperience();
 setTimeout(()=>{
     let sku = document.body.querySelector('.pepeganga-pepeganga-theme-15-x-titleChange').getAttribute('skumudi')
-    let container = document.body.querySelector('.pepeganga-pepeganga-theme-15-x-product-images-container').parentNode;
+    let container = document.querySelector('.pepeganga-pepeganga-theme-15-x-containerSliderT');
     mudiExperience.experienceOn( sku , container );
 },1500) 
 
