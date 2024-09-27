@@ -96,7 +96,7 @@ createBtns(){
 
     containerBtns.querySelector('#img3DBtn').addEventListener('click',()=>{
         this.createModal();
-        //this.sendEventInteraction('3D');
+        this.sendEventInteraction('3D');
     });
 
     fragment.appendChild(containerBtns)
@@ -219,7 +219,7 @@ createModal(){
         else {
             window.open(`${this.dataServer.URL_AR}`,"_BLANK");
         } 
-        // flagAR && this.sendEventInteraction('AR')
+        flagAR && this.sendEventInteraction('AR')
     });
 
     /** Verify Style Bttn AR  */
@@ -270,8 +270,6 @@ sendEventInteraction(eventName){
         event: `Evento de interaccion ${eventName}`,
         valorMudi: 1,
         sku: this.skuNumber,
-        category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
-        subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
         sistemaOperativo: OSdevice
     })
 };
@@ -288,8 +286,6 @@ sendEventViewer(){
         event: `visualizacion_botones`,
         valorMudi: 1,
         sku: this.skuNumber,
-        category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
-        subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
         sistemaOperativo: OSdevice
     })
 };
