@@ -218,6 +218,8 @@
         transition: all .2s ease-in-out;
         transform: scale(.9);
     }
+
+  
 }
 
 @media screen and (min-width:1100px) and (max-width:1399px) {
@@ -235,6 +237,18 @@
         color: white;
         transition: all .2s ease-in-out;
         transform: scale(.8);
+    }
+
+    .mudiQR {
+    width: 67%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+      .butonVerMasMudi{
+        margin: .55rem auto
     }
 }
 
