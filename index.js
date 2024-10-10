@@ -206,7 +206,7 @@ createModal(){
         if(window.innerWidth>1000){
             !flagAR 
             ? (
-                document.body.querySelector('.containerQRMudi').style.right="0%",
+                document.body.querySelector('.containerQRMudi').style.right="-11%",
                 changeStyleBtnAR(flagAR,this.color),
                 flagAR = !flagAR
             )
