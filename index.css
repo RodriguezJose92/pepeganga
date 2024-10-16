@@ -290,6 +290,21 @@
     height: 107%;
 }
 
+
+    .iframeMudi3D {
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    filter: drop-shadow(3px 5px 10px rgba(10, 10, 10, 0.532));
+    top: -4%;
+}
+
   .containerQRMudi {
     position: absolute;
     top: 110%;
