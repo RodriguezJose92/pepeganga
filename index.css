@@ -298,11 +298,11 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 80%;
+    height: 85%;
     border-radius: 10px;
     overflow: hidden;
     filter: drop-shadow(3px 5px 10px rgba(10, 10, 10, 0.532));
-    top: -4%;
+    top: -6%;
 }
 
   .containerQRMudi {
